@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: Gilroy;
+}
+
+body{
+    background-color: #000;
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.bg{
+    background-image: url(https://images.unsplash.com/photo-1541356665065-22676f35dd40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
